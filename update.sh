@@ -28,13 +28,12 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/794959818/pubgradar.git
-cd pubgradar/
+git clone https://github.com/c846790720/xuanmai0502.git
+cd xuanmai0502/
 npm i
 npm i -g pino
 npm install -g forever
 forever start index.js sniff eth0 $ip | pino
 
 echo "搭建完成"
-echo "并不是一个人在战斗，加入我们6698530@qq.com"
-echo "你能加上你的QQ，但加不上我的心"
+
